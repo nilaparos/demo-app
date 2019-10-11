@@ -34,18 +34,18 @@ var data2 = ['A', 'B', 'C', 'D']
 // ตำแหน่ง 0 = A, 1 = B, 2 = C, 3 = D
 
 // ลบ C ออก
-console.log((data2.splice(2,1))
+console.log(data2.splice(2,1))
 // ABD
-console.log((data2.splice(1,1))
+console.log(data2.splice(1,1))
 // ACD
-console.log((data2.splice(1,5))
+console.log(data2.splice(1,5))
 // A
 
 // แทรก X ระหว่าง B กับ C
-console.log((data2.splice(2,0,'X'))
+console.log(data2.splice(2,0,'X'))
 // ABXCD
 // -----
-console.log((data2.splice(2,1,'X'))
+console.log(data2.splice(2,1,'X'))
 // ABXD    
 console.log(data2.splice(data2.length, 0, 'E'))
 // ABCDE
