@@ -1,0 +1,25 @@
+{
+  "name": "demo01",
+  "version": "0.0.1",
+  "description": "test for demo workshop01",
+  "main": "array.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nilaparos/demo-app.git"
+  },
+  "keywords": [
+    "demo01"
+  ],
+  "author": "Vannis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nilaparos/demo-app/issues"
+  },
+  "homepage": "https://github.com/nilaparos/demo-app#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
